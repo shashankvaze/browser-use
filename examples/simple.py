@@ -2,13 +2,12 @@ import os
 import sys
 
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-
+from browser_use import Agent
 import asyncio
-
 from dotenv import load_dotenv
 from langchain_openai import ChatOpenAI
 
-from browser_use import Agent
+
 
 load_dotenv()
 
